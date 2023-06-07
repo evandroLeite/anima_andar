@@ -1,0 +1,140 @@
+
+
+
+#movAR{
+    transition-duration: 200ms;
+    animation: bracoR linear infinite 1.5s;
+}
+
+
+@keyframes bracoR {
+    0%{
+        rotate: 55deg;
+    }
+
+    50%{
+        rotate: 125deg;
+    }
+}
+
+
+
+
+#movAL{
+    transition-duration: 200ms;
+    animation: bracoL linear infinite 1.5s;
+}
+
+
+@keyframes bracoL {
+    0%{
+        rotate: 125deg;
+    }
+
+    50%{
+        rotate: 55deg;
+    }
+}
+
+
+#movLR{
+    transition-duration: 200ms;
+    animation: bracoR linear infinite 1s;
+}
+
+#movLL{
+    transition-duration: 200ms;
+    animation: bracoL linear infinite 1s;
+}
+
+
+
+
+#stone1{
+    transition-duration: 200ms;
+    animation: movStone1 linear infinite 8s;
+}
+
+
+@keyframes movStone1 {
+    
+    0%{
+        left:0%;
+    }
+
+    100%{
+        left:70%;
+    }
+}
+
+#stone2{
+    transition-duration: 200ms;
+    animation: movStone2 linear infinite 9s;
+}
+
+
+@keyframes movStone2 {
+    
+    0%{
+        left:1%;
+    }
+
+    100%{
+        left:85%;
+    }
+}
+
+
+#stone3{
+    transition-duration: 200ms;
+    animation: movStone3 linear infinite 9s;
+}
+
+
+@keyframes movStone3 {
+    
+    0%{
+        left:15%;
+    }
+
+    100%{
+        left:100%;
+    }
+}
+
+
+#stone4{
+    transition-duration: 200ms;
+    animation: movStone4 linear infinite 9s;
+}
+
+
+@keyframes movStone4 {
+    
+    0%{
+        left:2%;
+    }
+
+    100%{
+        left:83%;
+    }
+}
+
+
+.casa{
+    transition-duration: 200ms;
+    animation: movCasa linear infinite 9s;
+}
+
+@keyframes movCasa {
+    
+    0%{
+        top: 35%;
+        left:-50%;
+    }
+
+    100%{
+        top: 35%;
+        left:100%;
+    }
+}
